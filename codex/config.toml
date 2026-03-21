@@ -4,7 +4,3 @@ plan_mode_reasoning_effort = "high"
 service_tier = "fast"
 personality = "friendly"
 
-[features]
-js_repl = true
-prevent_idle_sleep = true
-
