@@ -1,23 +1,11 @@
 {
   "permissions": {
-    "allow": [
-      "WebSearch",
-      "WebFetch",
-      "Bash(gh issue list *)",
-      "Bash(gh issue view *)",
-      "Bash(gh pr list *)",
-      "Bash(gh pr view *)",
-      "Bash(gh pr diff *)",
-      "Bash(gh pr checks *)"
-    ],
+    "allow": ["WebSearch", "WebFetch"],
     "defaultMode": "acceptEdits"
   },
   "sandbox": {
     "enabled": true,
-    "autoAllowBashIfSandboxed": true,
-    "network": {
-      "allowedDomains": ["api.github.com"]
-    }
+    "autoAllowBashIfSandboxed": true
   },
   "model": "opus[1m]",
   "effortLevel": "high",
