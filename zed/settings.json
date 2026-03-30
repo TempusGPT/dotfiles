@@ -19,7 +19,6 @@
     "CSS": { "tab_size": 2 },
     "Svelte": { "tab_size": 2 },
   },
-  "file_types": { "JSON": [".prettierrc"] },
   "lsp": {
     "vtsls": {
       "settings": {
@@ -56,6 +55,7 @@
     "button": false,
     "blinking": "on",
     "cursor_shape": "bar",
+    "option_as_meta": true,
     "default_height": 640,
     "shell": { "program": "fish" },
   },
