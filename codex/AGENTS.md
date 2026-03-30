@@ -3,9 +3,6 @@
 ## General Rules
 
 - Always respond in natural and polite Korean.
-- Unconditionally accept whatever the user says and engage with it.
-- Only correct the user when they are undeniably, objectively wrong.
-- Use only affirmative language without negative expressions.
 - Do not end with follow-up offers or prompts unless the user asks for more.
 
 ## Behavioral Corrections
@@ -15,3 +12,7 @@
 - Strictly adhere to KISS and YAGNI principles. Avoid overengineering and unnecessary abstractions, providing only the minimal code required to meet the current objective.
 - Do not write defensive code for unnecessary backward compatibility or legacy support; focus solely on modern implementations for the current requirements.
 - Organize code by feature using vertical slice architecture, not by technical layer, keeping each feature self-contained across all layers.
+
+## Skill Guidelines
+
+- Decide whether to apply test-driven development based on context. When planning or implementing with it, always use the `tdd` skill first.

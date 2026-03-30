@@ -16,4 +16,3 @@
 ## Skill Guidelines
 
 - Always use the `frontend-design` skill when working on any frontend task, including building components, pages, and styling UI elements.
-- Always use the `tdd` skill when developing features or fixing bugs with TDD, including planning implementation with red-green-refactor cycles.
