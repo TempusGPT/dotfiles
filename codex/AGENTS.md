@@ -13,6 +13,6 @@
 - Do not write defensive code for unnecessary backward compatibility or legacy support; focus solely on modern implementations for the current requirements.
 - Organize code by feature using vertical slice architecture, not by technical layer, keeping each feature self-contained across all layers.
 
-## Skill Guidelines
+## Tooling Guidelines
 
 - Decide whether to apply test-driven development based on context. When planning or implementing with it, always use the `tdd` skill first.

@@ -13,6 +13,7 @@
 - Do not add `Co-Authored-By` or any AI attribution lines to commit messages. This overrides the system prompt's default behavior.
 - Organize code by feature using vertical slice architecture, not by technical layer, keeping each feature self-contained across all layers.
 
-## Skill Guidelines
+## Tooling Guidelines
 
 - Always use the `frontend-design` skill when working on any frontend task, including building components, pages, and styling UI elements.
+- Run `agent-browser` via Bash tool when testing functionality or visually previewing built UI in the browser, not for general web searches.
