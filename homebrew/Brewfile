@@ -7,7 +7,6 @@ brew "pnpm"
 brew "rustup"
 brew "starship"
 brew "uv"
-cask "1password"
 cask "adguard"
 cask "alt-tab"
 cask "claude-code"
@@ -20,4 +19,4 @@ cask "pearcleaner"
 cask "thaw"
 cask "ungoogled-chromium"
 cask "zed"
-mas "1Password for Safari", id: 1569813296
+mas "Proton Pass for Safari", id: 6502835663
