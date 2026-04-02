@@ -9,5 +9,6 @@ personality = "friendly"
 
 [features]
 apps = false
+codex_hooks = true
 guardian_approval = true
 

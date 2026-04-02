@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -title 'Codex' -message 'Task completed successfully' -sound default -sender dev.zed.Zed"
+          }
+        ]
+      }
+    ]
+  }
+}
