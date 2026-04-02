@@ -17,7 +17,6 @@
   "languages": {
     "HTML": { "tab_size": 2 },
     "CSS": { "tab_size": 2 },
-    "Svelte": { "tab_size": 2 },
   },
   "lsp": {
     "vtsls": {
@@ -68,12 +67,12 @@
 
   // Extensions
   "auto_install_extensions": {
-    "dockerfile": true,
-    "fish": true,
-    "git-firefly": true,
     "html": true,
-    "svelte": true,
     "toml": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "astro": true,
+    "fish": true,
   },
 
   // Theme
