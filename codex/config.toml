@@ -11,4 +11,5 @@ personality = "friendly"
 apps = false
 codex_hooks = true
 guardian_approval = true
+prevent_idle_sleep = true
 
