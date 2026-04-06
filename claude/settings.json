@@ -39,8 +39,7 @@
       "Bash(gh pr diff *)",
       "Bash(gh pr checks *)",
       "Bash(agent-browser *)"
-    ],
-    "defaultMode": "acceptEdits"
+    ]
   },
   "model": "opus[1m]",
   "effortLevel": "high",

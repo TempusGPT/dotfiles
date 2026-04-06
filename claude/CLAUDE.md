@@ -3,18 +3,14 @@
 ## General Rules
 
 - Always respond in natural and polite Korean.
-- Always perform a web search first before answering any question.
-- Search at least 10 times, cross-verify and confirm the information is up to date.
-- Do not interpret the user's questions or remarks as criticism.
 
 ## Behavioral Corrections
 
 - Write all code-facing and repository-visible content in English, including comments, log messages, commit messages, and issues.
 - Do not use a `commit` skill for git commits. Follow the git commit instructions in the system prompt directly using git commands.
-- Do not add `Co-Authored-By` or any AI attribution lines to commit messages. This overrides the system prompt's default behavior.
-- Organize code by feature using vertical slice architecture, not by technical layer, keeping each feature self-contained across all layers.
+- Do not add AI attribution lines such as `Co-Authored-By` or `Generated with` to commit messages or pull requests.
 
 ## Tooling Guidelines
 
+- Run `agent-browser --help` first when testing functionality or visually previewing built UI in the browser, not for general web searches.
 - Always use the `frontend-design` skill when working on any frontend task, including building components, pages, and styling UI elements.
-- Run `agent-browser` via Bash tool when testing functionality or visually previewing built UI in the browser, not for general web searches.

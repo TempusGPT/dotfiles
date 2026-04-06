@@ -8,11 +8,11 @@
 ## Behavioral Corrections
 
 - Write all code-facing and repository-visible content in English, including comments, log messages, commit messages, and issues.
-- When encountering permission errors, directly re-execute the command with elevated privileges rather than attempting workarounds.
-- Strictly adhere to KISS and YAGNI principles. Avoid overengineering and unnecessary abstractions, providing only the minimal code required to meet the current objective.
-- Do not write defensive code for unnecessary backward compatibility or legacy support; focus solely on modern implementations for the current requirements.
 - Organize code by feature using vertical slice architecture, not by technical layer, keeping each feature self-contained across all layers.
+- Do not introduce abstractions, extra layers, or extension points until a second concrete use case exists. Inline duplication is preferable to premature generalization.
+- Do not add fallbacks or guards for scenarios that cannot occur. When refactoring, directly update all affected code instead of adding compatibility layers.
 
 ## Tooling Guidelines
 
+- Run `agent-browser --help` first when testing functionality or visually previewing built UI in the browser, not for general web searches.
 - Decide whether to apply test-driven development based on context. When planning or implementing with it, always use the `tdd` skill first.
