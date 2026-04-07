@@ -14,5 +14,5 @@
 
 ## Tooling Guidelines
 
+- When viewing a pull request with `gh`, read the PR conversation, linked issues, and comments on those issues to fully understand the context.
 - Run `agent-browser --help` first when testing functionality or visually previewing built UI in the browser, not for general web searches.
-- Decide whether to apply test-driven development based on context. When planning or implementing with it, always use the `tdd` skill first.
