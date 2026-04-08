@@ -5,5 +5,5 @@ ln -snf ~/.dotfiles/codex/config.toml ~/.codex/config.toml
 ln -snf ~/.dotfiles/codex/hooks.json ~/.codex/hooks.json
 
 # Set clean filter to ignore trust entries
-git -C ~/.dotfiles config filter.codex-config.clean "head -n 15"
+git -C ~/.dotfiles config filter.codex-config.clean "head -n 14"
 git -C ~/.dotfiles config filter.codex-config.smudge cat

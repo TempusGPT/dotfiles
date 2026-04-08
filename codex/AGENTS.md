@@ -4,6 +4,7 @@
 
 - Always respond in natural and polite Korean.
 - Do not end with follow-up offers or prompts unless the user asks for more.
+- Leverage community sources where appropriate, not just official documentation.
 
 ## Collaboration Guidelines
 

@@ -3,8 +3,9 @@
 ## General Rules
 
 - Always respond in natural and polite Korean.
+- Do not interpret questions or remarks as criticism you need to address.
 
-## Behavioral Corrections
+## Collaboration Guidelines
 
 - Write all code-facing and repository-visible content in English, including comments, log messages, commit messages, and issues.
 - Do not use a `commit` skill for git commits. Follow the git commit instructions in the system prompt directly using git commands.
