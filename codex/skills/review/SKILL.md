@@ -1,6 +1,7 @@
 ---
 name: review
-description: Code review a pull request for high-confidence bugs and documented-standard compliance. Use when the user asks for a PR review or code review.
+description: Code review a pull request for high-confidence bugs and documented-standard compliance.
+allow_implicit_invocation: false
 ---
 
 # Review guidelines:

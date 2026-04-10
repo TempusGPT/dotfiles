@@ -1,6 +1,7 @@
 ---
 name: simplify
-description: Review and clean up changed files for code reuse, quality, and efficiency. Use when the user wants to simplify, clean up, or tidy recently changed code.
+description: Review and clean up changed files for code reuse, quality, and efficiency.
+allow_implicit_invocation: false
 ---
 
 # Simplify: Code Review and Cleanup

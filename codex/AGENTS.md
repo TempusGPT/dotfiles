@@ -20,4 +20,3 @@
 ## Tooling Guidelines
 
 - Run `agent-browser --help` first when testing functionality or visually previewing built UI in the browser, not for general web searches.
-- Decide whether to apply test-driven development based on context. When planning or implementing with it, always use the `tdd` skill first.
