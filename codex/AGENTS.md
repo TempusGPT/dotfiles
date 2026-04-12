@@ -19,4 +19,5 @@
 
 ## Tooling Guidelines
 
+- Actively use `spawn_agent` for independent research, exploration, and parallel tasks; always spawn them with the same model as yourself.
 - Run `agent-browser --help` first when testing functionality or visually previewing built UI in the browser, not for general web searches.
