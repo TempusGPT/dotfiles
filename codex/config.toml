@@ -13,3 +13,5 @@ apps = false
 guardian_approval = true
 prevent_idle_sleep = true
 terminal_resize_reflow = true
+goals = true
+
