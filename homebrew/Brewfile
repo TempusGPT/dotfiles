@@ -1,4 +1,3 @@
-brew "agent-browser"
 brew "fish"
 brew "fnm"
 brew "gh"
