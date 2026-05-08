@@ -1,7 +1,6 @@
 ---
 name: simplify
-description: Review and clean up changed files for code reuse, quality, and efficiency.
-allow_implicit_invocation: false
+description: Review and clean up changed code for reuse, quality, and efficiency. Use when Codex is asked to simplify, refactor, polish, or de-duplicate recent code changes; identify duplicated utilities, hacky patterns, unnecessary complexity, and performance issues; then directly fix actionable findings.
 ---
 
 # Simplify: Code Review and Cleanup
