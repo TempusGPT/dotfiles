@@ -40,14 +40,14 @@
   "title_bar": { "show_user_picture": false },
   "tabs": { "file_icons": true },
   "diagnostics": { "button": false },
-  "outline_panel": { "button": false },
-  "collaboration_panel": { "button": false },
   "debugger": { "button": false },
   "status_bar": { "active_encoding_button": "enabled" },
 
   // Panels
-  "project_panel": { "default_width": 360 },
-  "notification_panel": { "button": false },
+  "project_panel": { "dock": "left", "default_width": 360 },
+  "git_panel": { "dock": "left", "default_width": 360 },
+  "outline_panel": { "button": false },
+  "collaboration_panel": { "button": false },
 
   // Terminal
   "terminal": {

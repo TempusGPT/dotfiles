@@ -1,4 +1,4 @@
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "xhigh"
 approvals_reviewer = "guardian_subagent"
@@ -6,8 +6,10 @@ approval_policy = "on-request"
 sandbox_mode = "workspace-write"
 service_tier = "fast"
 
+notify = ["/Users/changyong/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+
 [features]
 apps = false
 guardian_approval = true
 prevent_idle_sleep = true
-
+terminal_resize_reflow = true
